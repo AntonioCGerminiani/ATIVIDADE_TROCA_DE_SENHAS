@@ -1,0 +1,1 @@
+/* Timer da sessão */

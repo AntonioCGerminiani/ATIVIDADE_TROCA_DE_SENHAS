@@ -1,0 +1,31 @@
+projeto-troca-senha/
+│
+├── index.html                 -> Tela de Login
+├── alterar-senha.html         -> Tela de Alteração de Senha
+├── sucesso.html               -> Tela de Sucesso
+│
+├── /assets/
+│   ├── /css/
+│   │   ├── global.css         -> Estilos globais (cores, fontes, layout base)
+│   │   ├── login.css          -> Estilo exclusivo da tela de login
+│   │   ├── alterarsenha.css   -> Estilo exclusivo da tela de alteração
+│   │   └── sucesso.css        -> Estilo da tela de sucesso
+│   │
+│   ├── /js/
+│   │   ├── utils/
+│   │   │   ├── dom.js         -> Funções utilitárias (query selectors, helpers)
+│   │   │   ├── capslock.js    -> Detector de caps lock
+│   │   │   ├── timer.js       -> Timer da sessão
+│   │   │   └── validators.js  -> Validações gerais
+│   │   │
+│   │   ├── login.js           -> Lógica da tela de login
+│   │   ├── alterarsenha.js    -> Lógica da tela de troca de senha
+│   │   └── sucesso.js         -> Scripts da tela final
+│   │
+│   ├── /img/                  -> Logos, ícones, ilustrações
+│   │
+│   └── /icons/                -> SVGs ou ícones separados (mostrar/ocultar senha)
+│
+└── /docs/
+    ├── requisitos.md          -> Requisitos do trabalho
+    └── tarefas-equipe.md      -> Divisão de responsabilidades
